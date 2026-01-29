@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Pedro\Desktop\mips\simulation\qsim
+vmips
+Z1 !s100 BOS6Q1_MnJkh8BmTc2n7i3
+Z2 IE<6V[c]YLa:Di6BKi01AB3
+Z3 V8J:KJBz7EiEmHKj7d<Sc92
+Z4 dC:\Users\josue\Downloads\mips\simulation\qsim
+Z5 w1743088827
+Z6 8mips.vo
+Z7 Fmips.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|mips.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1743088828.797000
+Z12 !s107 mips.vo|
+!s101 -O0
+vmips_vlg_check_tst
+!i10b 1
+!s100 cCN3`ZlNdQoD59<TQTSHc1
+IKK?gWnWHYj:G=4m>LiD0m2
+ViVb<eK>zIHWgh3QFMIA;_3
+R4
+Z13 w1743088826
+Z14 8mips.vt
+Z15 Fmips.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z16 !s108 1743088828.991000
+Z17 !s107 mips.vt|
+Z18 !s90 -work|work|mips.vt|
+!s101 -O0
+R10
+vmips_vlg_sample_tst
+!i10b 1
+!s100 6``hdkTi]AQ;lbH3l]Sh<1
+INHD:B>VPgo2Z5@n^YSCK_0
+VC1@CiOQjnCXHS;GnHIRLl3
+R4
+R13
+R14
+R15
+L0 29
+R8
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R10
+vmips_vlg_vec_tst
+!i10b 1
+!s100 oRgK;majBZH80dK:f9>m20
+ITamZ<ZYoBec4jYLd1K0I03
+Z19 VVKzoHn3[1J<b_HUciH[kS2
+R4
+R13
+R14
+R15
+L0 711
+R8
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R10

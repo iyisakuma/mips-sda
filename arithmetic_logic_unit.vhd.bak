@@ -1,0 +1,62 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+USE IEEE.std_logic_signed.all;
+
+ENTITY arithmetic_logic_unit is
+	port (
+		sel: in std_logic_vector(3 downto 0);
+		A, B: in std_logic_vector(31 downto 0);
+		carry, overflow, N: out std_logic;
+		F: out std_logic_vector(31 downto 0)
+	);
+end arithmetic_logic_unit;
+
+ARCHITECTURE arc OF arithmetic_logic_unit IS
+
+signal temp, temp_A, temp_B: std_logic_vector(32 downto 0);
+signal temp_overflow, temp_N: std_logic;
+
+begin
+	
+	process(A, B, sel)
+		begin
+			temp_A(31 downto 0) <= A;
+			temp_B(31 downto 0) <= B;
+			temp_A(32) <= A(31);
+			temp_B(32) <= B(31);
+			
+			case sel is
+				when "0000" => temp <= temp_A;
+				when "0001" => temp <= temp_B;
+				when "0010" => temp <= temp_A + temp_B;
+				when "0011" => temp <= temp_A + 1;
+				when "0100" => temp <= temp_A - temp_B;
+				when "0101" => temp <= temp_A + 2;
+				when "0110" => temp <= temp_A + not(temp_B);
+				when "0111" => temp <= temp_A - not(temp_B);
+				when "1000" => temp <= temp_A and temp_B;
+				when "1001" => temp <= temp_A or temp_B;
+				when "1010" => temp <= temp_A xor temp_B;
+				when "1011" => temp <= not(temp_A);
+				when "1100" => temp <= not(temp_B);
+				when "1101" => temp <= temp_A or not(temp_B);
+				when "1110" => temp <= temp_A and not(temp_B);
+				when "1111" => temp <= temp_A xor not(temp_B);
+			end case;
+			
+			if (sel = "0010") then
+				 temp_overflow <= (A(31) and B(31) and not temp(31)) or (not A(31) and not B(31) and temp(31));
+			elsif (sel = "0100") then
+				 temp_overflow <= (A(31) and not B(31) and not temp(31)) or (not A(31) and B(31) and temp(31));
+			else
+				 temp_overflow <= '0';
+			end if;
+			
+		end process;
+		
+		F <= temp(31 downto 0);
+		carry <= (A(31) and B(31)) or (A(31) and not temp(31)) or (B(31) and not temp(31));
+		overflow <= temp_overflow;
+		N <= temp(31);
+
+end arc;
