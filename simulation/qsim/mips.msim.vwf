@@ -652,106 +652,6 @@ SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[9]~25_combout")
 	PARENT = "";
 }
 
-SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[9]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[8]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[7]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[6]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[5]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[4]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[3]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[2]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[1]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[0]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
 SIGNAL("mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[31]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -1063,6 +963,106 @@ SIGNAL("mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b
 }
 
 SIGNAL("mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[9]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[8]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[7]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[6]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("mips_vlg_vec_tst|i1|sig_instruction_address[0]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2136,118 +2136,6 @@ TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[9]~25_combout")
 	}
 }
 
-TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[9]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[8]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[7]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[6]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[4]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[3]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 600.0;
-		LEVEL 1 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 280.0;
-		LEVEL 1 FOR 320.0;
-		LEVEL 0 FOR 320.0;
-		LEVEL 1 FOR 80.0;
-	}
-}
-
-TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[1]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 120.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 80.0;
-	}
-}
-
-TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[0]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-	}
-}
-
 TRANSITION_LIST("mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[31]")
 {
 	NODE
@@ -2591,6 +2479,118 @@ TRANSITION_LIST("mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_gene
 		LEVEL 0 FOR 40.001;
 		LEVEL 1 FOR 480.0;
 		LEVEL 0 FOR 479.999;
+	}
+}
+
+TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[9]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[8]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[7]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 600.0;
+		LEVEL 1 FOR 400.0;
+	}
+}
+
+TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 280.0;
+		LEVEL 1 FOR 320.0;
+		LEVEL 0 FOR 320.0;
+		LEVEL 1 FOR 80.0;
+	}
+}
+
+TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 120.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 80.0;
+	}
+}
+
+TRANSITION_LIST("mips_vlg_vec_tst|i1|sig_instruction_address[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
 	}
 }
 
@@ -3500,7 +3500,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[9]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[31]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 62;
@@ -3509,7 +3509,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[8]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[30]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 63;
@@ -3518,7 +3518,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[7]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[29]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 64;
@@ -3527,7 +3527,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[6]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[28]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 65;
@@ -3536,7 +3536,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[5]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[27]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 66;
@@ -3545,7 +3545,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[4]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[26]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 67;
@@ -3554,7 +3554,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[3]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[25]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 68;
@@ -3563,7 +3563,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[2]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[24]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 69;
@@ -3572,7 +3572,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[1]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[23]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 70;
@@ -3581,7 +3581,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[0]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[22]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 71;
@@ -3590,7 +3590,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[31]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[21]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 72;
@@ -3599,7 +3599,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[30]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[20]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 73;
@@ -3608,7 +3608,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[29]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[19]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 74;
@@ -3617,7 +3617,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[28]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[18]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 75;
@@ -3626,7 +3626,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[27]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[17]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 76;
@@ -3635,7 +3635,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[26]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[16]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 77;
@@ -3644,7 +3644,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[25]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[15]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 78;
@@ -3653,7 +3653,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[24]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[14]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 79;
@@ -3662,7 +3662,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[23]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[13]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 80;
@@ -3671,7 +3671,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[22]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[12]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 81;
@@ -3680,7 +3680,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[21]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[11]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 82;
@@ -3689,7 +3689,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[20]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[10]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 83;
@@ -3698,7 +3698,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[19]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[9]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 84;
@@ -3707,7 +3707,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[18]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[8]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 85;
@@ -3716,7 +3716,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[17]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[7]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 86;
@@ -3725,7 +3725,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[16]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[6]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 87;
@@ -3734,7 +3734,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[15]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[5]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 88;
@@ -3743,7 +3743,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[14]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[4]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 89;
@@ -3752,7 +3752,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[13]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[3]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 90;
@@ -3761,7 +3761,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[12]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 91;
@@ -3770,7 +3770,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[11]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 92;
@@ -3779,7 +3779,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[10]";
+	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 93;
@@ -3788,7 +3788,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[9]";
+	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[9]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 94;
@@ -3797,7 +3797,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[8]";
+	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[8]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 95;
@@ -3806,7 +3806,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[7]";
+	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[7]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 96;
@@ -3815,7 +3815,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[6]";
+	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[6]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 97;
@@ -3824,7 +3824,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[5]";
+	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[5]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 98;
@@ -3833,7 +3833,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[4]";
+	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[4]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 99;
@@ -3842,7 +3842,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[3]";
+	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[3]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 100;
@@ -3851,7 +3851,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[2]";
+	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 101;
@@ -3860,7 +3860,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[1]";
+	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 102;
@@ -3869,7 +3869,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "mips_vlg_vec_tst|i1|inst_mem|mem|altsyncram_component|auto_generated|q_b[0]";
+	CHANNEL = "mips_vlg_vec_tst|i1|sig_instruction_address[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 103;

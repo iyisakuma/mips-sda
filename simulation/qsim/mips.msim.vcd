@@ -3,7 +3,7 @@ $comment
 		vcd file mips.msim.vcd -direction
 $end
 $date
-	Thu Mar 27 12:20:29 2025
+	Mon Feb 02 21:19:05 2026
 $end
 $version
 	ModelSim Version 10.1d
@@ -75,48 +75,48 @@ $var wire 1 [ sig_instruction_address[7]~22 $end
 $var wire 1 \ sig_instruction_address[8]~23_combout $end
 $var wire 1 ] sig_instruction_address[8]~24 $end
 $var wire 1 ^ sig_instruction_address[9]~25_combout $end
-$var wire 1 _ sig_instruction_address [9] $end
-$var wire 1 ` sig_instruction_address [8] $end
-$var wire 1 a sig_instruction_address [7] $end
-$var wire 1 b sig_instruction_address [6] $end
-$var wire 1 c sig_instruction_address [5] $end
-$var wire 1 d sig_instruction_address [4] $end
-$var wire 1 e sig_instruction_address [3] $end
-$var wire 1 f sig_instruction_address [2] $end
-$var wire 1 g sig_instruction_address [1] $end
-$var wire 1 h sig_instruction_address [0] $end
-$var wire 1 i inst_mem|mem|altsyncram_component|auto_generated|q_b [31] $end
-$var wire 1 j inst_mem|mem|altsyncram_component|auto_generated|q_b [30] $end
-$var wire 1 k inst_mem|mem|altsyncram_component|auto_generated|q_b [29] $end
-$var wire 1 l inst_mem|mem|altsyncram_component|auto_generated|q_b [28] $end
-$var wire 1 m inst_mem|mem|altsyncram_component|auto_generated|q_b [27] $end
-$var wire 1 n inst_mem|mem|altsyncram_component|auto_generated|q_b [26] $end
-$var wire 1 o inst_mem|mem|altsyncram_component|auto_generated|q_b [25] $end
-$var wire 1 p inst_mem|mem|altsyncram_component|auto_generated|q_b [24] $end
-$var wire 1 q inst_mem|mem|altsyncram_component|auto_generated|q_b [23] $end
-$var wire 1 r inst_mem|mem|altsyncram_component|auto_generated|q_b [22] $end
-$var wire 1 s inst_mem|mem|altsyncram_component|auto_generated|q_b [21] $end
-$var wire 1 t inst_mem|mem|altsyncram_component|auto_generated|q_b [20] $end
-$var wire 1 u inst_mem|mem|altsyncram_component|auto_generated|q_b [19] $end
-$var wire 1 v inst_mem|mem|altsyncram_component|auto_generated|q_b [18] $end
-$var wire 1 w inst_mem|mem|altsyncram_component|auto_generated|q_b [17] $end
-$var wire 1 x inst_mem|mem|altsyncram_component|auto_generated|q_b [16] $end
-$var wire 1 y inst_mem|mem|altsyncram_component|auto_generated|q_b [15] $end
-$var wire 1 z inst_mem|mem|altsyncram_component|auto_generated|q_b [14] $end
-$var wire 1 { inst_mem|mem|altsyncram_component|auto_generated|q_b [13] $end
-$var wire 1 | inst_mem|mem|altsyncram_component|auto_generated|q_b [12] $end
-$var wire 1 } inst_mem|mem|altsyncram_component|auto_generated|q_b [11] $end
-$var wire 1 ~ inst_mem|mem|altsyncram_component|auto_generated|q_b [10] $end
-$var wire 1 !! inst_mem|mem|altsyncram_component|auto_generated|q_b [9] $end
-$var wire 1 "! inst_mem|mem|altsyncram_component|auto_generated|q_b [8] $end
-$var wire 1 #! inst_mem|mem|altsyncram_component|auto_generated|q_b [7] $end
-$var wire 1 $! inst_mem|mem|altsyncram_component|auto_generated|q_b [6] $end
-$var wire 1 %! inst_mem|mem|altsyncram_component|auto_generated|q_b [5] $end
-$var wire 1 &! inst_mem|mem|altsyncram_component|auto_generated|q_b [4] $end
-$var wire 1 '! inst_mem|mem|altsyncram_component|auto_generated|q_b [3] $end
-$var wire 1 (! inst_mem|mem|altsyncram_component|auto_generated|q_b [2] $end
-$var wire 1 )! inst_mem|mem|altsyncram_component|auto_generated|q_b [1] $end
-$var wire 1 *! inst_mem|mem|altsyncram_component|auto_generated|q_b [0] $end
+$var wire 1 _ inst_mem|mem|altsyncram_component|auto_generated|q_b [31] $end
+$var wire 1 ` inst_mem|mem|altsyncram_component|auto_generated|q_b [30] $end
+$var wire 1 a inst_mem|mem|altsyncram_component|auto_generated|q_b [29] $end
+$var wire 1 b inst_mem|mem|altsyncram_component|auto_generated|q_b [28] $end
+$var wire 1 c inst_mem|mem|altsyncram_component|auto_generated|q_b [27] $end
+$var wire 1 d inst_mem|mem|altsyncram_component|auto_generated|q_b [26] $end
+$var wire 1 e inst_mem|mem|altsyncram_component|auto_generated|q_b [25] $end
+$var wire 1 f inst_mem|mem|altsyncram_component|auto_generated|q_b [24] $end
+$var wire 1 g inst_mem|mem|altsyncram_component|auto_generated|q_b [23] $end
+$var wire 1 h inst_mem|mem|altsyncram_component|auto_generated|q_b [22] $end
+$var wire 1 i inst_mem|mem|altsyncram_component|auto_generated|q_b [21] $end
+$var wire 1 j inst_mem|mem|altsyncram_component|auto_generated|q_b [20] $end
+$var wire 1 k inst_mem|mem|altsyncram_component|auto_generated|q_b [19] $end
+$var wire 1 l inst_mem|mem|altsyncram_component|auto_generated|q_b [18] $end
+$var wire 1 m inst_mem|mem|altsyncram_component|auto_generated|q_b [17] $end
+$var wire 1 n inst_mem|mem|altsyncram_component|auto_generated|q_b [16] $end
+$var wire 1 o inst_mem|mem|altsyncram_component|auto_generated|q_b [15] $end
+$var wire 1 p inst_mem|mem|altsyncram_component|auto_generated|q_b [14] $end
+$var wire 1 q inst_mem|mem|altsyncram_component|auto_generated|q_b [13] $end
+$var wire 1 r inst_mem|mem|altsyncram_component|auto_generated|q_b [12] $end
+$var wire 1 s inst_mem|mem|altsyncram_component|auto_generated|q_b [11] $end
+$var wire 1 t inst_mem|mem|altsyncram_component|auto_generated|q_b [10] $end
+$var wire 1 u inst_mem|mem|altsyncram_component|auto_generated|q_b [9] $end
+$var wire 1 v inst_mem|mem|altsyncram_component|auto_generated|q_b [8] $end
+$var wire 1 w inst_mem|mem|altsyncram_component|auto_generated|q_b [7] $end
+$var wire 1 x inst_mem|mem|altsyncram_component|auto_generated|q_b [6] $end
+$var wire 1 y inst_mem|mem|altsyncram_component|auto_generated|q_b [5] $end
+$var wire 1 z inst_mem|mem|altsyncram_component|auto_generated|q_b [4] $end
+$var wire 1 { inst_mem|mem|altsyncram_component|auto_generated|q_b [3] $end
+$var wire 1 | inst_mem|mem|altsyncram_component|auto_generated|q_b [2] $end
+$var wire 1 } inst_mem|mem|altsyncram_component|auto_generated|q_b [1] $end
+$var wire 1 ~ inst_mem|mem|altsyncram_component|auto_generated|q_b [0] $end
+$var wire 1 !! sig_instruction_address [9] $end
+$var wire 1 "! sig_instruction_address [8] $end
+$var wire 1 #! sig_instruction_address [7] $end
+$var wire 1 $! sig_instruction_address [6] $end
+$var wire 1 %! sig_instruction_address [5] $end
+$var wire 1 &! sig_instruction_address [4] $end
+$var wire 1 '! sig_instruction_address [3] $end
+$var wire 1 (! sig_instruction_address [2] $end
+$var wire 1 )! sig_instruction_address [1] $end
+$var wire 1 *! sig_instruction_address [0] $end
 $var wire 1 +! inst_mem|mem|altsyncram_component|auto_generated|ram_block1a0_PORTBDATAOUT_bus [3] $end
 $var wire 1 ,! inst_mem|mem|altsyncram_component|auto_generated|ram_block1a0_PORTBDATAOUT_bus [2] $end
 $var wire 1 -! inst_mem|mem|altsyncram_component|auto_generated|ram_block1a0_PORTBDATAOUT_bus [1] $end
@@ -216,26 +216,6 @@ xF
 0\
 1]
 0^
-0h
-0g
-0f
-0e
-0d
-0c
-0b
-0a
-0`
-0_
-0*!
-0)!
-0(!
-0'!
-0&!
-0%!
-0$!
-0#!
-0"!
-0!!
 0~
 0}
 0|
@@ -258,6 +238,26 @@ xF
 0k
 0j
 0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0*!
+0)!
+0(!
+0'!
+0&!
+0%!
+0$!
+0#!
+0"!
+0!!
 0.!
 0-!
 0,!
@@ -299,7 +299,7 @@ $end
 1J
 1K
 1C
-1h
+1*!
 1N
 0M
 #40001
@@ -310,13 +310,13 @@ $end
 1.!
 1-!
 1+!
-1m
+1c
+1t
+1x
+1w
 1~
-1$!
-1#!
-1*!
-1)!
-1'!
+1}
+1{
 1'
 18
 1<
@@ -334,18 +334,18 @@ $end
 1J
 1K
 1C
-1g
-0h
+1)!
+0*!
 1M
 #120001
 0C!
 1:!
 0-!
 0+!
-0m
-1|
-0)!
-0'!
+0c
+1r
+0}
+0{
 0'
 16
 0A
@@ -360,7 +360,7 @@ $end
 1J
 1K
 1C
-1h
+1*!
 1O
 0N
 0M
@@ -372,12 +372,12 @@ $end
 13!
 1-!
 1+!
-1n
-1m
-0|
+1d
+1c
+0r
+1s
 1}
-1)!
-1'!
+1{
 1(
 1'
 06
@@ -394,9 +394,9 @@ $end
 1J
 1K
 1C
-1f
-0g
-0h
+1(!
+0)!
+0*!
 0Q
 0P
 0O
@@ -411,11 +411,11 @@ $end
 1:!
 0-!
 0+!
-0n
-0m
-1|
-0)!
-0'!
+0d
+0c
+1r
+0}
+0{
 0(
 0'
 16
@@ -431,7 +431,7 @@ $end
 1J
 1K
 1C
-1h
+1*!
 1N
 0M
 #360001
@@ -443,14 +443,14 @@ $end
 03!
 12!
 0/!
-1r
-1x
-1w
-0|
-1{
-0}
-1&!
-0#!
+1h
+1n
+1m
+0r
+1q
+0s
+1z
+0w
 1,
 12
 11
@@ -469,8 +469,8 @@ $end
 1J
 1K
 1C
-1g
-0h
+1)!
+0*!
 1M
 #440001
 1J!
@@ -483,16 +483,16 @@ $end
 1/!
 1-!
 1+!
-1l
-1n
-0r
-0x
-0w
+1b
+1d
+0h
+0n
+0m
+1s
+0z
+1w
 1}
-0&!
-1#!
-1)!
-1'!
+1{
 1&
 1(
 0,
@@ -513,7 +513,7 @@ $end
 1J
 1K
 1C
-1h
+1*!
 1O
 0N
 0M
@@ -534,19 +534,19 @@ $end
 0-!
 1,!
 0+!
-0l
-0n
-1s
-1q
-1v
-0{
+0b
+0d
+1i
+1g
+1l
+0q
+0s
+0x
+0w
+0~
 0}
-0$!
-0#!
-0*!
-0)!
-1(!
-0'!
+1|
+0{
 0&
 0(
 1-
@@ -570,10 +570,10 @@ $end
 1J
 1K
 1C
-1e
-0f
-0g
-0h
+1'!
+0(!
+0)!
+0*!
 1S
 0R
 1Q
@@ -591,11 +591,11 @@ $end
 0<!
 04!
 0,!
-0s
-0q
-0v
-0~
-0(!
+0i
+0g
+0l
+0t
+0|
 0-
 0+
 00
@@ -611,7 +611,7 @@ $end
 1J
 1K
 1C
-1h
+1*!
 1N
 0M
 #720000
@@ -624,8 +624,8 @@ $end
 1J
 1K
 1C
-1g
-0h
+1)!
+0*!
 1M
 #800000
 0!
@@ -637,7 +637,7 @@ $end
 1J
 1K
 1C
-1h
+1*!
 1O
 0N
 0M
@@ -652,9 +652,9 @@ $end
 1J
 1K
 1C
-1f
-0g
-0h
+1(!
+0)!
+0*!
 0Q
 0P
 0O

@@ -1,0 +1,40 @@
+ARCHITECTURE beh OF control_unit IS
+BEGIN
+  PROCESS(opcode, funct)
+  BEGIN
+    -- defaults
+    RegDst   <= '0';
+    RegWrite <= '0';
+    ALUSrc   <= '0';
+    MemWrite <= '0';
+    MemToReg <= '0';
+    ALUCtrl  <= "000";
+
+    CASE opcode IS
+
+      WHEN "000000" =>  -- Tipo R
+        RegDst   <= '1';
+        RegWrite <= '1';
+        CASE funct IS
+          WHEN "100000" => ALUCtrl <= "010"; -- ADD
+          WHEN "100010" => ALUCtrl <= "110"; -- SUB
+          WHEN OTHERS   => ALUCtrl <= "000";
+        END CASE;
+
+      WHEN "100011" =>  -- LW
+        RegWrite <= '1';
+        ALUSrc   <= '1';
+        MemToReg <= '1';
+        ALUCtrl  <= "010";
+
+      WHEN "101011" =>  -- SW
+        ALUSrc   <= '1';
+        MemWrite <= '1';
+        ALUCtrl  <= "010";
+
+      WHEN OTHERS =>
+        NULL;
+
+    END CASE;
+  END PROCESS;
+END beh;

@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
-// DATE "03/27/2025 12:20:27"
+// DATE "02/02/2026 21:19:04"
 
 // 
 // Device: Altera EP2C5T144C6 Package TQFP144
@@ -105,8 +105,8 @@ wire \sig_instruction_address[7]~22 ;
 wire \sig_instruction_address[8]~23_combout ;
 wire \sig_instruction_address[8]~24 ;
 wire \sig_instruction_address[9]~25_combout ;
-wire [9:0] sig_instruction_address;
 wire [31:0] \inst_mem|mem|altsyncram_component|auto_generated|q_b ;
+wire [9:0] sig_instruction_address;
 
 wire [3:0] \inst_mem|mem|altsyncram_component|auto_generated|ram_block1a0_PORTBDATAOUT_bus ;
 wire [3:0] \inst_mem|mem|altsyncram_component|auto_generated|ram_block1a4_PORTBDATAOUT_bus ;

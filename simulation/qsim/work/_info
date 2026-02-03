@@ -4,11 +4,11 @@ K3
 cModel Technology
 Z0 dC:\Users\Pedro\Desktop\mips\simulation\qsim
 vmips
-Z1 !s100 BOS6Q1_MnJkh8BmTc2n7i3
-Z2 IE<6V[c]YLa:Di6BKi01AB3
+Z1 !s100 HQFQzQ`oCbQOIM`ZmXVCM0
+Z2 I[gPJ7@D5d71I7kX6dSiSY1
 Z3 V8J:KJBz7EiEmHKj7d<Sc92
-Z4 dC:\Users\josue\Downloads\mips\simulation\qsim
-Z5 w1743088827
+Z4 dC:\Users\iyisa\Desktop\sda-2025\mips\simulation\qsim
+Z5 w1770077944
 Z6 8mips.vo
 Z7 Fmips.vo
 L0 31
@@ -19,63 +19,63 @@ Z9 !s90 -work|work|mips.vo|
 Z10 o-work work -O0
 !i10b 1
 !s85 0
-Z11 !s108 1743088828.797000
+Z11 !s108 1770077945.135000
 Z12 !s107 mips.vo|
 !s101 -O0
 vmips_vlg_check_tst
 !i10b 1
-!s100 cCN3`ZlNdQoD59<TQTSHc1
-IKK?gWnWHYj:G=4m>LiD0m2
-ViVb<eK>zIHWgh3QFMIA;_3
+Z13 !s100 cCN3`ZlNdQoD59<TQTSHc1
+Z14 IKK?gWnWHYj:G=4m>LiD0m2
+Z15 ViVb<eK>zIHWgh3QFMIA;_3
 R4
-Z13 w1743088826
-Z14 8mips.vt
-Z15 Fmips.vt
+Z16 w1770077943
+Z17 8mips.vt
+Z18 Fmips.vt
 L0 59
 R8
 r1
 !s85 0
 31
-Z16 !s108 1743088828.991000
-Z17 !s107 mips.vt|
-Z18 !s90 -work|work|mips.vt|
+Z19 !s108 1770077945.216000
+Z20 !s107 mips.vt|
+Z21 !s90 -work|work|mips.vt|
 !s101 -O0
 R10
 vmips_vlg_sample_tst
 !i10b 1
-!s100 6``hdkTi]AQ;lbH3l]Sh<1
-INHD:B>VPgo2Z5@n^YSCK_0
-VC1@CiOQjnCXHS;GnHIRLl3
+Z22 !s100 6``hdkTi]AQ;lbH3l]Sh<1
+Z23 INHD:B>VPgo2Z5@n^YSCK_0
+Z24 VC1@CiOQjnCXHS;GnHIRLl3
 R4
-R13
-R14
-R15
+R16
+R17
+R18
 L0 29
 R8
 r1
 !s85 0
 31
-R16
-R17
-R18
+R19
+R20
+R21
 !s101 -O0
 R10
 vmips_vlg_vec_tst
 !i10b 1
-!s100 oRgK;majBZH80dK:f9>m20
-ITamZ<ZYoBec4jYLd1K0I03
-Z19 VVKzoHn3[1J<b_HUciH[kS2
+Z25 !s100 oRgK;majBZH80dK:f9>m20
+Z26 ITamZ<ZYoBec4jYLd1K0I03
+Z27 VVKzoHn3[1J<b_HUciH[kS2
 R4
-R13
-R14
-R15
-L0 711
+R16
+R17
+R18
+Z28 L0 711
 R8
 r1
 !s85 0
 31
-R16
-R17
-R18
+R19
+R20
+R21
 !s101 -O0
 R10
