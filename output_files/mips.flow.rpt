@@ -1,5 +1,5 @@
 Flow report for mips
-Mon Feb 02 21:19:04 2026
+Wed Feb 04 22:07:48 2026
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,22 +40,20 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Mon Feb 02 21:19:04 2026           ;
+; Flow Status                        ; Successful - Wed Feb 04 22:07:48 2026           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; mips                                            ;
 ; Top-level Entity Name              ; mips                                            ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 11 / 4,608 ( < 1 % )                            ;
-;     Total combinational functions  ; 11 / 4,608 ( < 1 % )                            ;
-;     Dedicated logic registers      ; 10 / 4,608 ( < 1 % )                            ;
+; Total logic elements               ; 13                                              ;
+;     Total combinational functions  ; 13                                              ;
+;     Dedicated logic registers      ; 10                                              ;
 ; Total registers                    ; 10                                              ;
-; Total pins                         ; 34 / 89 ( 38 % )                                ;
+; Total pins                         ; 34                                              ;
 ; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 32,768 / 119,808 ( 27 % )                       ;
-; Embedded Multiplier 9-bit elements ; 0 / 26 ( 0 % )                                  ;
-; Total PLLs                         ; 0 / 2 ( 0 % )                                   ;
-; Device                             ; EP2C5T144C6                                     ;
-; Timing Models                      ; Final                                           ;
+; Total memory bits                  ; 32,768                                          ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
 +------------------------------------+-------------------------------------------------+
 
 
@@ -64,7 +62,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/27/2025 20:37:04 ;
+; Start date & time ; 02/04/2026 22:07:45 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; mips                ;
 +-------------------+---------------------+
@@ -75,7 +73,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 198112244509083.174311862421084 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 246488362670725.177025366526976 ; --            ; --          ; --             ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                              ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                     ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)       ; <None>        ; --          ; --             ;
@@ -92,56 +90,29 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                             ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4654 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:02     ; 1.0                     ; 4805 MB             ; 00:00:02                           ;
-; Assembler                 ; 00:00:00     ; 1.0                     ; 4542 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4539 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4507 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 4521 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4521 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4521 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4521 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4521 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:09     ; --                      ; --                  ; 00:00:05                           ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:02     ; 1.0                     ; 4663 MB             ; 00:00:02                           ;
+; Total                ; 00:00:02     ; --                      ; --                  ; 00:00:02                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                        ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-NVUSSLJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; DESKTOP-NVUSSLJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; DESKTOP-NVUSSLJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-NVUSSLJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-NVUSSLJ  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; WIN-BQ02TGLLQ32  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; WIN-BQ02TGLLQ32  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; WIN-BQ02TGLLQ32  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; WIN-BQ02TGLLQ32  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; WIN-BQ02TGLLQ32  ; Windows 7 ; 6.2        ; x86_64         ;
-+---------------------------+------------------+-----------+------------+----------------+
++-----------------------------------------------------------------------------------+
+; Flow OS Summary                                                                   ;
++----------------------+------------------+-----------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++----------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis ; WIN-BQ02TGLLQ32  ; Windows 7 ; 6.2        ; x86_64         ;
++----------------------+------------------+-----------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off mips -c mips
-quartus_fit --read_settings_files=off --write_settings_files=off mips -c mips
-quartus_asm --read_settings_files=off --write_settings_files=off mips -c mips
-quartus_sta mips -c mips
-quartus_eda --read_settings_files=off --write_settings_files=off mips -c mips
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog mips -c mips --vector_source=C:/Users/iyisa/Desktop/sda-2025/mips/Waveform.vwf --testbench_file=./simulation/qsim/mips.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog mips -c mips
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog mips -c mips
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog mips -c mips --vector_source=C:/Users/iyisa/Desktop/sda-2025/mips/Waveform.vwf --testbench_file=./simulation/qsim/mips.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog mips -c mips
 
 
 

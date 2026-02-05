@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="mips">
-		<CBX_INST_ENTRY INSTANCE_NAME="|mips|data_memory:data_mem|memory2:mem|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_upq1.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|mips|instructions_memory:inst_mem|memory:mem|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_r9s1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|datapath:PO|data_memory:dmem|memory2:mem|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_upq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|datapath:PO|instructions_memory:imem|memory:mem|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_r9s1.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

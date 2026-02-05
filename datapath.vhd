@@ -31,8 +31,8 @@ ARCHITECTURE arc OF datapath IS
     PORT (
       load_enable, clock, reset : IN std_logic;
       data                      : IN std_logic_vector(31 downto 0);
-      destination_select        : IN std_logic_vector(3 downto 0);
-      A_select, B_select        : IN std_logic_vector(3 downto 0);
+      destination_select        : IN std_logic_vector(4 downto 0);
+      A_select, B_select        : IN std_logic_vector(4 downto 0);
       A_data, B_data            : OUT std_logic_vector(31 downto 0)
     );
   END COMPONENT;
@@ -69,7 +69,7 @@ ARCHITECTURE arc OF datapath IS
   END COMPONENT;
 
   -- sinais internos
-  SIGNAL PC, PC_JUMP             : std_logic_vector(9 downto 0) := (others=>'0');
+  SIGNAL PC             : std_logic_vector(9 downto 0) := (others=>'0');
   SIGNAL instr           : std_logic_vector(31 downto 0);
   SIGNAL regA, regB      : std_logic_vector(31 downto 0);
   SIGNAL aluB, aluOut    : std_logic_vector(31 downto 0);
@@ -124,7 +124,7 @@ BEGIN
       clock => clock,
       reset => reset,
       data => wbData,
-      destination_select => destReg(3 downto 0),
+      destination_select => destReg,
       A_select => instr(25 downto 21),
       B_select => instr(20 downto 16),
       A_data => regA,

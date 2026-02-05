@@ -16,7 +16,23 @@
 <TH>Output only Bidir</TH>
 </TR>
 <TR >
-<TD >MUX2</TD>
+<TD >PCU</TD>
+<TD >12</TD>
+<TD >1</TD>
+<TD >0</TD>
+<TD >1</TD>
+<TD >9</TD>
+<TD >1</TD>
+<TD >1</TD>
+<TD >1</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|mux_wb</TD>
 <TD >65</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -32,7 +48,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >data_mem|mem|altsyncram_component|auto_generated</TD>
+<TD >PO|dmem|mem|altsyncram_component|auto_generated</TD>
 <TD >54</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -48,7 +64,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >data_mem|mem</TD>
+<TD >PO|dmem|mem</TD>
 <TD >54</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -64,7 +80,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >data_mem</TD>
+<TD >PO|dmem</TD>
 <TD >54</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -80,7 +96,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >alu</TD>
+<TD >PO|alu</TD>
 <TD >67</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -96,24 +112,8 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >MUX3</TD>
+<TD >PO|mux_alu</TD>
 <TD >65</TD>
-<TD >26</TD>
-<TD >0</TD>
-<TD >26</TD>
-<TD >32</TD>
-<TD >26</TD>
-<TD >26</TD>
-<TD >26</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-</TR>
-<TR >
-<TD >reg_file|MUX_B</TD>
-<TD >516</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -128,8 +128,8 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|MUX_A</TD>
-<TD >516</TD>
+<TD >PO|regs|MUX_B</TD>
+<TD >1029</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -144,7 +144,23 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R15</TD>
+<TD >PO|regs|MUX_A</TD>
+<TD >1029</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R31</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -160,7 +176,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R14</TD>
+<TD >PO|regs|R30</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -176,7 +192,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R13</TD>
+<TD >PO|regs|R29</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -192,7 +208,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R12</TD>
+<TD >PO|regs|R28</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -208,7 +224,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R11</TD>
+<TD >PO|regs|R27</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -224,7 +240,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R10</TD>
+<TD >PO|regs|R26</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -240,7 +256,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R9</TD>
+<TD >PO|regs|R25</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -256,7 +272,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R8</TD>
+<TD >PO|regs|R24</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -272,7 +288,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R7</TD>
+<TD >PO|regs|R23</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -288,7 +304,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R6</TD>
+<TD >PO|regs|R22</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -304,7 +320,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R5</TD>
+<TD >PO|regs|R21</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -320,7 +336,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R4</TD>
+<TD >PO|regs|R20</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -336,7 +352,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R3</TD>
+<TD >PO|regs|R19</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -352,7 +368,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R2</TD>
+<TD >PO|regs|R18</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -368,7 +384,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R1</TD>
+<TD >PO|regs|R17</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -384,7 +400,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|R0</TD>
+<TD >PO|regs|R16</TD>
 <TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -400,12 +416,12 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file|DECO</TD>
-<TD >5</TD>
+<TD >PO|regs|R15</TD>
+<TD >35</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
-<TD >16</TD>
+<TD >32</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -416,8 +432,264 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >reg_file</TD>
-<TD >47</TD>
+<TD >PO|regs|R14</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R13</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R12</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R11</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R10</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R9</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R8</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R7</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R6</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R5</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R4</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R3</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R2</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R1</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|R0</TD>
+<TD >35</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs|DECO</TD>
+<TD >6</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO|regs</TD>
+<TD >50</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -432,15 +704,15 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >MUX1</TD>
+<TD >PO|mux_rd</TD>
 <TD >11</TD>
-<TD >1</TD>
 <TD >0</TD>
-<TD >1</TD>
+<TD >0</TD>
+<TD >0</TD>
 <TD >5</TD>
-<TD >1</TD>
-<TD >1</TD>
-<TD >1</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -448,7 +720,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >inst_mem|mem|altsyncram_component|auto_generated</TD>
+<TD >PO|imem|mem|altsyncram_component|auto_generated</TD>
 <TD >54</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -464,7 +736,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >inst_mem|mem</TD>
+<TD >PO|imem|mem</TD>
 <TD >54</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -480,7 +752,7 @@
 <TD >0</TD>
 </TR>
 <TR >
-<TD >inst_mem</TD>
+<TD >PO|imem</TD>
 <TD >54</TD>
 <TD >43</TD>
 <TD >0</TD>
@@ -489,6 +761,22 @@
 <TD >43</TD>
 <TD >43</TD>
 <TD >43</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >PO</TD>
+<TD >21</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >32</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
