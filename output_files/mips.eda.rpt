@@ -1,5 +1,5 @@
 EDA Netlist Writer report for mips
-Mon Feb 02 21:19:04 2026
+Sat Feb 07 18:15:51 2026
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Feb 02 21:19:04 2026 ;
+; EDA Netlist Writer Status ; Successful - Sat Feb 07 18:15:51 2026 ;
 ; Revision Name             ; mips                                  ;
 ; Top-level Entity Name     ; mips                                  ;
 ; Family                    ; Cyclone II                            ;
@@ -65,13 +65,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+------------------------------------------------------------------+
-; Simulation Generated Files                                       ;
-+------------------------------------------------------------------+
-; Generated Files                                                  ;
-+------------------------------------------------------------------+
-; C:/Users/iyisa/Desktop/sda-2025/mips/simulation/modelsim/mips.vo ;
-+------------------------------------------------------------------+
++-------------------------------------------------------------------------+
+; Simulation Generated Files                                              ;
++-------------------------------------------------------------------------+
+; Generated Files                                                         ;
++-------------------------------------------------------------------------+
+; C:/Users/Gabriel/Desktop/Trabalho-/mips-sda/simulation/modelsim/mips.vo ;
++-------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -80,13 +80,15 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Feb 02 21:19:03 2026
+    Info: Processing started: Sat Feb 07 18:15:45 2026
 Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog mips -c mips
-Info (204019): Generated file mips.vo in folder "C:/Users/iyisa/Desktop/sda-2025/mips/simulation/modelsim/" for EDA simulation tool
+Info (119004): Automatically selected device EP2C70F896C6 for design mips
+Info (119005): Fitting design with smaller device may be possible, but smaller device must be specified
+Info (204019): Generated file mips.vo in folder "C:/Users/Gabriel/Desktop/Trabalho-/mips-sda/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4521 megabytes
-    Info: Processing ended: Mon Feb 02 21:19:04 2026
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Peak virtual memory: 4643 megabytes
+    Info: Processing ended: Sat Feb 07 18:15:52 2026
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:06
 
 

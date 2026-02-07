@@ -10,14 +10,8 @@ ENTITY mux2_1 is
 	);
 end mux2_1;
 
-ARCHITECTURE arc OF mux2_1 IS
+ARCHITECTURE behavioral OF mux2_1 IS
 BEGIN
-    process (sel, X0, X1)
-    begin
-        if sel = '0' then
-            out_mux <= X0;
-        else
-            out_mux <= X1;
-        end if;
-    end process;
-END arc;
+  -- MUX combinacional simples (mais rápido que process)
+  out_mux <= X1 when sel = '1' else X0;
+END behavioral;

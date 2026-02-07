@@ -9,19 +9,16 @@ ENTITY regis is
 	);
 end regis;
 
-ARCHITECTURE arc OF regis IS
-
+ARCHITECTURE behavioral OF regis IS
 begin
-
-	process(D, clock, reset, load)
-		begin
-			if reset = '1' then
-				Q <= "00000000000000000000000000000000";
-			elsif rising_edge(clock) then 
-				if load = '1' then
-					Q <= D;
-				end if;
+	process(clock, reset)
+	begin
+		if reset = '1' then
+			Q <= (others => '0');
+		elsif rising_edge(clock) then 
+			if load = '1' then
+				Q <= D;
 			end if;
-		end process;
-		
-end arc;
+		end if;
+	end process;
+end behavioral;

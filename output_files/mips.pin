@@ -110,25 +110,25 @@ GND*                         : 43        :        :                   :         
 GND*                         : 44        :        :                   :         : 4         :                
 GND*                         : 45        :        :                   :         : 4         :                
 VCCIO4                       : 46        : power  :                   : 3.3V    : 4         :                
-GND*                         : 47        :        :                   :         : 4         :                
-GND*                         : 48        :        :                   :         : 4         :                
+instr_debug[19]              : 47        : output : 3.3-V LVTTL       :         : 4         : N              
+instr_debug[18]              : 48        : output : 3.3-V LVTTL       :         : 4         : N              
 GND                          : 49        : gnd    :                   :         :           :                
 VCCINT                       : 50        : power  :                   : 1.2V    :           :                
-GND*                         : 51        :        :                   :         : 4         :                
+instr_debug[25]              : 51        : output : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : 52        :        :                   :         : 4         :                
-word_control_out[8]          : 53        : output : 3.3-V LVTTL       :         : 4         : N              
+instr_debug[24]              : 53        : output : 3.3-V LVTTL       :         : 4         : N              
 VCCIO4                       : 54        : power  :                   : 3.3V    : 4         :                
-word_control_out[9]          : 55        : output : 3.3-V LVTTL       :         : 4         : N              
+instr_debug[23]              : 55        : output : 3.3-V LVTTL       :         : 4         : N              
 GND                          : 56        : gnd    :                   :         :           :                
-word_control_out[6]          : 57        : output : 3.3-V LVTTL       :         : 4         : N              
-GND*                         : 58        :        :                   :         : 4         :                
-GND*                         : 59        :        :                   :         : 4         :                
-GND*                         : 60        :        :                   :         : 4         :                
+instr_debug[30]              : 57        : output : 3.3-V LVTTL       :         : 4         : N              
+instr_debug[14]              : 58        : output : 3.3-V LVTTL       :         : 4         : N              
+instr_debug[31]              : 59        : output : 3.3-V LVTTL       :         : 4         : N              
+instr_debug[1]               : 60        : output : 3.3-V LVTTL       :         : 4         : N              
 GND                          : 61        : gnd    :                   :         :           :                
 VCCINT                       : 62        : power  :                   : 1.2V    :           :                
-GND*                         : 63        :        :                   :         : 4         :                
-GND*                         : 64        :        :                   :         : 4         :                
-GND*                         : 65        :        :                   :         : 4         :                
+instr_debug[12]              : 63        : output : 3.3-V LVTTL       :         : 4         : N              
+instr_debug[13]              : 64        : output : 3.3-V LVTTL       :         : 4         : N              
+instr_debug[15]              : 65        : output : 3.3-V LVTTL       :         : 4         : N              
 VCCIO4                       : 66        : power  :                   : 3.3V    : 4         :                
 GND*                         : 67        :        :                   :         : 4         :                
 GND                          : 68        : gnd    :                   :         :           :                
@@ -142,32 +142,32 @@ GND*                         : 75        :        :                   :         
 ~LVDS41p/nCEO~               : 76        : output : 3.3-V LVTTL       :         : 3         : N              
 VCCIO3                       : 77        : power  :                   : 3.3V    : 3         :                
 GND                          : 78        : gnd    :                   :         :           :                
-GND*                         : 79        :        :                   :         : 3         :                
-GND*                         : 80        :        :                   :         : 3         :                
-GND*                         : 81        :        :                   :         : 3         :                
+instr_debug[26]              : 79        : output : 3.3-V LVTTL       :         : 3         : N              
+instr_debug[27]              : 80        : output : 3.3-V LVTTL       :         : 3         : N              
+instr_debug[0]               : 81        : output : 3.3-V LVTTL       :         : 3         : N              
 nSTATUS                      : 82        :        :                   :         : 3         :                
 CONF_DONE                    : 83        :        :                   :         : 3         :                
 MSEL1                        : 84        :        :                   :         : 3         :                
 MSEL0                        : 85        :        :                   :         : 3         :                
-GND*                         : 86        :        :                   :         : 3         :                
-GND*                         : 87        :        :                   :         : 3         :                
+instr_debug[28]              : 86        : output : 3.3-V LVTTL       :         : 3         : N              
+instr_debug[4]               : 87        : output : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : 88        :        :                   :         : 3         :                
 GND+                         : 89        :        :                   :         : 3         :                
 GND+                         : 90        :        :                   :         : 3         :                
 GND+                         : 91        :        :                   :         : 3         :                
-word_control_out[18]         : 92        : output : 3.3-V LVTTL       :         : 3         : N              
-word_control_out[24]         : 93        : output : 3.3-V LVTTL       :         : 3         : N              
-word_control_out[14]         : 94        : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : 92        :        :                   :         : 3         :                
+instr_debug[29]              : 93        : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : 94        :        :                   :         : 3         :                
 VCCIO3                       : 95        : power  :                   : 3.3V    : 3         :                
-word_control_out[12]         : 96        : output : 3.3-V LVTTL       :         : 3         : N              
-word_control_out[13]         : 97        : output : 3.3-V LVTTL       :         : 3         : N              
+instr_debug[11]              : 96        : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : 97        :        :                   :         : 3         :                
 GND                          : 98        : gnd    :                   :         :           :                
-word_control_out[29]         : 99        : output : 3.3-V LVTTL       :         : 3         : N              
-word_control_out[15]         : 100       : output : 3.3-V LVTTL       :         : 3         : N              
-word_control_out[30]         : 101       : output : 3.3-V LVTTL       :         : 3         : N              
+instr_debug[3]               : 99        : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : 100       :        :                   :         : 3         :                
+GND*                         : 101       :        :                   :         : 3         :                
 VCCIO3                       : 102       : power  :                   : 3.3V    : 3         :                
 GND*                         : 103       :        :                   :         : 3         :                
-word_control_out[22]         : 104       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : 104       :        :                   :         : 3         :                
 GND                          : 105       : gnd    :                   :         :           :                
 GND_PLL2                     : 106       : gnd    :                   :         :           :                
 VCCD_PLL2                    : 107       : power  :                   : 1.2V    :           :                
@@ -175,36 +175,36 @@ GND_PLL2                     : 108       : gnd    :                   :         
 VCCA_PLL2                    : 109       : power  :                   : 1.2V    :           :                
 GNDA_PLL2                    : 110       : gnd    :                   :         :           :                
 GND                          : 111       : gnd    :                   :         :           :                
-word_control_out[23]         : 112       : output : 3.3-V LVTTL       :         : 2         : N              
-word_control_out[28]         : 113       : output : 3.3-V LVTTL       :         : 2         : N              
-word_control_out[20]         : 114       : output : 3.3-V LVTTL       :         : 2         : N              
-word_control_out[21]         : 115       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : 112       :        :                   :         : 2         :                
+GND*                         : 113       :        :                   :         : 2         :                
+GND*                         : 114       :        :                   :         : 2         :                
+GND*                         : 115       :        :                   :         : 2         :                
 VCCIO2                       : 116       : power  :                   : 3.3V    : 2         :                
 GND                          : 117       : gnd    :                   :         :           :                
-word_control_out[27]         : 118       : output : 3.3-V LVTTL       :         : 2         : N              
-word_control_out[31]         : 119       : output : 3.3-V LVTTL       :         : 2         : N              
-word_control_out[17]         : 120       : output : 3.3-V LVTTL       :         : 2         : N              
-word_control_out[25]         : 121       : output : 3.3-V LVTTL       :         : 2         : N              
-word_control_out[26]         : 122       : output : 3.3-V LVTTL       :         : 2         : N              
+instr_debug[20]              : 118       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : 119       :        :                   :         : 2         :                
+instr_debug[2]               : 120       : output : 3.3-V LVTTL       :         : 2         : N              
+instr_debug[16]              : 121       : output : 3.3-V LVTTL       :         : 2         : N              
+instr_debug[5]               : 122       : output : 3.3-V LVTTL       :         : 2         : N              
 GND                          : 123       : gnd    :                   :         :           :                
 VCCINT                       : 124       : power  :                   : 1.2V    :           :                
-word_control_out[1]          : 125       : output : 3.3-V LVTTL       :         : 2         : N              
-word_control_out[0]          : 126       : output : 3.3-V LVTTL       :         : 2         : N              
+instr_debug[7]               : 125       : output : 3.3-V LVTTL       :         : 2         : N              
+instr_debug[8]               : 126       : output : 3.3-V LVTTL       :         : 2         : N              
 VCCIO2                       : 127       : power  :                   : 3.3V    : 2         :                
 GND                          : 128       : gnd    :                   :         :           :                
-word_control_out[19]         : 129       : output : 3.3-V LVTTL       :         : 2         : N              
+instr_debug[10]              : 129       : output : 3.3-V LVTTL       :         : 2         : N              
 GND                          : 130       : gnd    :                   :         :           :                
 VCCINT                       : 131       : power  :                   : 1.2V    :           :                
-word_control_out[10]         : 132       : output : 3.3-V LVTTL       :         : 2         : N              
-word_control_out[7]          : 133       : output : 3.3-V LVTTL       :         : 2         : N              
-word_control_out[5]          : 134       : output : 3.3-V LVTTL       :         : 2         : N              
-word_control_out[4]          : 135       : output : 3.3-V LVTTL       :         : 2         : N              
-word_control_out[16]         : 136       : output : 3.3-V LVTTL       :         : 2         : N              
-word_control_out[11]         : 137       : output : 3.3-V LVTTL       :         : 2         : N              
+instr_debug[17]              : 132       : output : 3.3-V LVTTL       :         : 2         : N              
+instr_debug[22]              : 133       : output : 3.3-V LVTTL       :         : 2         : N              
+instr_debug[6]               : 134       : output : 3.3-V LVTTL       :         : 2         : N              
+instr_debug[9]               : 135       : output : 3.3-V LVTTL       :         : 2         : N              
+instr_debug[21]              : 136       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : 137       :        :                   :         : 2         :                
 VCCIO2                       : 138       : power  :                   : 3.3V    : 2         :                
-word_control_out[2]          : 139       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : 139       :        :                   :         : 2         :                
 GND                          : 140       : gnd    :                   :         :           :                
-word_control_out[3]          : 141       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : 141       :        :                   :         : 2         :                
 GND*                         : 142       :        :                   :         : 2         :                
 GND*                         : 143       :        :                   :         : 2         :                
 GND*                         : 144       :        :                   :         : 2         :                
